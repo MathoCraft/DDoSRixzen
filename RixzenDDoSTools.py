@@ -6,10 +6,10 @@ def usage():
     print "######################################################################################"
     print "#                             RIXZEN-DDoS-Tools                                     ##"
     print "#Commands : python2 RixzenDDoSTools.py <ip> <port> <packet> <duration>              ##"
-    print "#Creator  : Mr.Erre               ##      #      #                                  ##"
+    print "#Creator  : Mr.Pack               ##      #      #                                  ##"
     print "#Team     : RixzenTeam            ##      #      #                                  ##"
     print "#Version  : 1.0                   ##      #      #                                  ##"
-    print "#TQAdmin  : Mr.Erre, Mr., Mr.Tod                                                    ##"
+    print "#TQAdmin  : Mr.Pack, Mr.Mek, Mr.Tod                                                 ##"
     print "######################################################################################"
 def flood(victim, vport, packet, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
