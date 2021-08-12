@@ -5,11 +5,11 @@ import sys
 def usage():
     print "\033[1;32m######################################################################################"
     print "\033[1;32m#                             RIXZEN-DDoS-Tools                                     \033[1;32m##"
-    print "\033[1;32m#[1;91mCommands : python2 RixzenDDoSTools.py <ip> <port> <packet> <duration>              \033[1;32m##"
-    print "\033[1;32m#[1;91mCreator  : Mr.Pack               \033[1;32m##      #      #                                  \033[1;32m##"
-    print "\033[1;32m#[1;91mTeam     : RixzenTeam            \033[1;32m##      #      #                                  \033[1;32m##"
-    print "\033[1;32m#[1;91mVersion  : 1.0                   \033[1;32m##      #      #                                  \033[1;32m##"
-    print "\033[1;32m#[1;91mTQAdmin  : Mr.Pack, Mr.Mek, Mr.Tod                                                 \033[1;32m##"
+    print "\033#[1;91mCommands : python2 RixzenDDoSTools.py <ip> <port> <packet> <duration>              \033[1;32m##"
+    print "\033#[1;91mCreator  : Mr.Pack               \033[1;32m##      #      #                                  ##"
+    print "\033#[1;91mTeam     : RixzenTeam            \033[1;32m##      #      #                                  ##"
+    print "\033#[1;91mVersion  : 1.0                   \033[1;32m##      #      #                                  ##"
+    print "\033#[1;91mTQAdmin  : Mr.Pack, Mr.Mek, Mr.Tod                                                 \033[1;32m##"
     print "\033[1;32m######################################################################################"
 def flood(victim, vport, packet, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
