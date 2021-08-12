@@ -4,8 +4,8 @@ import random
 import sys
 def usage():
     print "\033[1;32m#######################################################################"
-    print "#----------------------------[\033[1;91mTAMFAN-DDOS\033[1;32m]----------------------------#"
-    print "#   \033[1;91mCommand: " "python2 TamfanDdos.py " "<ip> <port> <packet> <duration>\033[1;32m    #"
+    print "#----------------------------[\033[1;91mRIXZEN-DDOS\033[1;32m]----------------------------#"
+    print "#   \033[1;91mCommand: " "python2 RixzenDDoS.py " "<ip> <port> <packet> <duration>\033[1;32m    #"
     print "#                                                                    ##"
     print "#\033[1;91mCreator: MrNath     \033[1;32m##     #      #                                 ##"
     print "#\033[1;91mTeam   : MCI        \033[1;32m##     #      #                                 ##"
